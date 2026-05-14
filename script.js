@@ -1,4 +1,4 @@
-const API_URL = window.API_URL || 'https://SEU-BACKEND-RENDER.onrender.com/lugares';
+const API_URL = window.API_URL || 'https://italia-back.onrender.com/lugares';
 
 function criarCard(lugar) {
   const artigo = document.createElement('article');
