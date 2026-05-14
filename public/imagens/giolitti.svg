@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Giolitti gelateria">
+  <rect width="800" height="500" fill="#f8d7c8"/>
+  <rect y="300" width="800" height="200" fill="#f4c3ad"/>
+  <rect x="170" y="140" width="460" height="220" rx="26" fill="#fff8f0" stroke="#d6b59d" stroke-width="10"/>
+  <path d="M240 160h320l-24-40H264z" fill="#f08c5a"/>
+  <circle cx="290" cy="250" r="42" fill="#f7c04a"/>
+  <circle cx="400" cy="230" r="42" fill="#8bc47a"/>
+  <circle cx="510" cy="250" r="42" fill="#b981d8"/>
+  <rect x="235" y="285" width="330" height="20" rx="10" fill="#d9b69f"/>
+</svg>
