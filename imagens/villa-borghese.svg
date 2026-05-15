@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Villa Borghese">
-  <rect width="800" height="500" fill="#dff0d8"/>
-  <rect y="330" width="800" height="170" fill="#bfe3b4"/>
-  <circle cx="650" cy="110" r="52" fill="#ffd77c"/>
-  <path d="M120 350c90-120 220-150 280-150s190 30 280 150" fill="#6ea85e" opacity="0.85"/>
-  <path d="M210 315c32-70 72-105 110-105s78 35 110 105" fill="#4c8b46"/>
-  <path d="M400 315c28-75 70-112 110-112s82 37 110 112" fill="#5ca34f"/>
-  <rect x="150" y="360" width="500" height="22" rx="11" fill="#7c9e67"/>
-</svg>
