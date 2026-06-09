@@ -55,3 +55,21 @@ async function carregarLugares() {
 }
 
 carregarLugares();
+
+async function testarApi() {
+  try {
+    const resposta = await fetch(
+      "https://italia-back.onrender.com/v1"
+    );
+
+    const dados = await resposta.json();
+
+    document.getElementById("api-status").textContent =
+      `${dados.message} (${dados.chamada_em})`;
+  } catch (erro) {
+    document.getElementById("api-status").textContent =
+      "Erro ao conectar com a API";
+  }
+}
+
+testarApi();
