@@ -1,4 +1,4 @@
-const API_URL = window.API_URL || "https://italia-back.onrender.com/lugares";
+const API_URL = "https://italia-back.onrender.com/lugares";
 
 function criarCard(lugar) {
   const artigo = document.createElement("article");
@@ -23,6 +23,7 @@ function criarCard(lugar) {
 
   conteudo.appendChild(titulo);
   conteudo.appendChild(descricao);
+
   artigo.appendChild(conteudo);
 
   return artigo;
@@ -42,19 +43,16 @@ async function carregarLugares() {
     const lugares = await resposta.json();
 
     cards.innerHTML = "";
+
     lugares.forEach((lugar) => {
       cards.appendChild(criarCard(lugar));
     });
 
-    status.textContent = "Conteudo carregado com sucesso.";
+    status.textContent = "Conteúdo carregado com sucesso.";
   } catch (erro) {
-    status.textContent = "Nao foi possivel carregar os lugares.";
-    cards.innerHTML =
-      '<p class="status error">Verifique a URL da API do backend.</p>';
+    status.textContent = "Não foi possível carregar os lugares.";
   }
 }
-
-carregarLugares();
 
 async function testarApi() {
   try {
@@ -72,4 +70,5 @@ async function testarApi() {
   }
 }
 
+carregarLugares();
 testarApi();
